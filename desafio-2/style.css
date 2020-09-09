@@ -1,0 +1,71 @@
+body{
+    width: 1920px;
+    height: 3011px;
+}
+
+body header{
+    margin-left: 277px;
+    margin-right: 277px;
+    height: 102px;
+    border-top: 2px #1C346C;
+}
+
+body header .logo{
+    float: left;
+}
+
+body header .logo .img{
+    margin-top: 32px;
+}
+
+body header .menu{
+    float: right;
+    margin-top: 78px;
+}
+
+body header .menu a{
+    margin-right: 60px;
+    font: normal normal 600 24px/32px Segoe UI;
+    color: #1C346C;
+    text-decoration: none;
+}
+
+body header .menu a:last-child{
+    margin-right: 0px;
+}
+
+body header .menu a:first-child{
+    color: #F5C33D;
+    text-decoration: underline;
+}
+
+body header .tittle h1{
+    float: left;
+    margin-top: 121px;
+    margin-left: 581px;
+    margin-bottom: 0px;
+    width: 100%;
+    font: italic 300 40px/48px Lato;
+    color: #1C346C;
+}
+
+body header .tittle2{
+    float: left;
+    margin-left: 480px;
+}
+
+body header .tittle2 .dev{
+    float: left;
+    color:#1C346C;
+    font: italic normal 600 48px/57px Lato;
+    margin-top: 32px;
+}
+
+body header .tittle2 .chall{
+    color:#F5C33D;
+    margin-right: 0px;
+    margin-left: 17px;
+    float: left;
+    font: italic normal 600 48px/57px Lato;
+    margin-top: 32px;
+}
