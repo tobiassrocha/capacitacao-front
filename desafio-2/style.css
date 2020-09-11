@@ -1,13 +1,7 @@
-body{
-    width: 1920px;
-    height: 3011px;
-}
-
 body header{
-    margin-left: 277px;
-    margin-right: 277px;
-    height: 102px;
-    border-top: 2px #1C346C;
+    float: left;
+    width: 64%;
+    margin: 0 18%;
 }
 
 body header .logo{
@@ -15,23 +9,25 @@ body header .logo{
 }
 
 body header .logo .img{
-    margin-top: 32px;
+    width: 70%;
 }
 
 body header .menu{
     float: right;
-    margin-top: 78px;
+    margin-top: 28px;
 }
 
 body header .menu a{
-    margin-right: 60px;
-    font: normal normal 600 24px/32px Segoe UI;
+    float: left;
+    margin-right: 40px;
+    font: normal normal 600 16px Segoe UI;
     color: #1C346C;
     text-decoration: none;
 }
 
 body header .menu a:last-child{
     margin-right: 0px;
+
 }
 
 body header .menu a:first-child{
@@ -39,33 +35,196 @@ body header .menu a:first-child{
     text-decoration: underline;
 }
 
-body header .tittle h1{
+body .tittle{
     float: left;
-    margin-top: 121px;
-    margin-left: 581px;
-    margin-bottom: 0px;
+    width: 80%;
+    margin: 0 10%;
+    text-align: center;
+}
+
+body .tittle h1{
+    font: italic normal 26px/100% Lato;
+    margin-top: 90px;
+}
+
+body .tittle2{
+    float: left;
+    width: 80%;
+    margin: 0 10%;
+    text-align: center;
+}
+
+body .tittle2 .dev{
+    float: left;
+    width: auto;
+    margin-left: 36%;
+    margin-right: 1%;
+    margin-top: 0%;
+    font: italic normal 600 28px Lato;
+    color: #1C346C;
+
+}
+
+body .tittle2 .chall{
+    float: left;
+    width: auto;
+    margin-right: 36%;
+    margin-top: 0%;
+    font: italic normal 600 28px Lato;
+    color: #F5C33D;
+}
+
+body .corpo-page{
+    float: left;
+    width: 80%;
+    margin: 0 10%;
+}
+
+body .corpo-page .produto{
+    float: left;
     width: 100%;
-    font: italic 300 40px/48px Lato;
+    margin-top: 60px;
+    font: normal normal 18px Lato;
+    color: #1C346C;
+    text-transform: uppercase;
+}
+
+body .corpo-page .fundo-text{
+    background-image: url('img/bg-section-1.svg');
+    background-position: right;
+    background-size: contain;
+    float: left;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+body .corpo-page .fundo-text .pai-text{
+    float: left;
+    width: 50%;
+}
+
+body .corpo-page .text1{
+    float: left;
+    width: 100%;
+    font: normal normal 30px Lato;
     color: #1C346C;
 }
 
-body header .tittle2{
-    float: left;
-    margin-left: 480px;
+body .corpo-page .text1 h2{
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
 
-body header .tittle2 .dev{
+body .corpo-page .text2{
     float: left;
-    color:#1C346C;
-    font: italic normal 600 48px/57px Lato;
-    margin-top: 32px;
+    width: 70%;
+    font: normal normal 300 16px/30px Lato;
+    color: #3B3B3B;
 }
 
-body header .tittle2 .chall{
-    color:#F5C33D;
+body .corpo-page .text2 h3{
+    float: left;
+    margin-top: 0%;
+}
+
+
+
+
+
+body .conheça{
+    float: left;
+    width: 80%;
+    margin: 0 10%;
+    margin-top: 100px;
+}
+
+body .conheça .cases{
+    float: left;
+    width: 100%;
+    font: normal normal  18px Lato;
+    text-transform: uppercase;
+    color: #1C346C;    
+    text-align: center;
+}
+
+body .conheça .titulo-imagem{
+    background-image: url('img/hammer-tusk-tzUJHxlAZFk-unsplash.png');
+    background-position: center;
+    background-size: contain;
+    float: left;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+    
+}
+
+body .conheça .titulo-imagem .fundo{
+    float: left;
+    width: 50%;
+}
+
+body .conheça .titulo-imagem .fundo h2{
+    float: left;
+    width: 100%;
+    margin-top: 280px;
+    margin-left: 135px;
+    margin-bottom: 0px;
+    font: normal normal bold 60px Lato;
+    color: #ffffff;
+    text-align: left;
+}
+
+body .conheça .titulo-imagem .fundo .h2:last-child{
+    font: normal normal bold 74px Lato;
+}
+
+body .conheça .titulo-imagem .fundo h2:last-child{
+    font: normal normal bold 80px Lato;
+    margin-top: 0px;
+}
+
+
+
+
+
+
+
+body footer{
+    width: 80%;
+    margin: 0 10%;
+}
+
+body footer .img{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+body footer .img .logo{
+    width: 16%;
+}
+
+body footer .menu{
+    float: left;
+    width: 80%;
+    margin: 0 10%;
+    margin-top: 30px;
+    margin-bottom: 120px;
+    text-align: center;
+}
+
+body footer .menu a{
+    margin-right: 70px;
+    font: normal normal 600 16px Segoe UI;
+    color: #1C346C;
+    text-decoration: none;
+}
+
+body footer .menu a:first-child{
+    color: #F5C33D;
+    text-decoration: underline;
+}
+
+body footer .menu a:last-child{
     margin-right: 0px;
-    margin-left: 17px;
-    float: left;
-    font: italic normal 600 48px/57px Lato;
-    margin-top: 32px;
 }
